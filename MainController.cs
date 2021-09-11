@@ -31,6 +31,10 @@ public class MainController : MonoBehaviour
     }
 }
 
+/**
+ * Data structure for roads.
+ * TODO: Need to add end nodes and add logic to stop cars
+ */
 public struct Road
 {
     public int roadID { get; set; }
